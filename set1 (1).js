@@ -17,7 +17,9 @@
  * @returns {Number} The number of centavos remaining from an employee's pay after taxes and expenses
  */
 function savings(grossPay, taxRate, expenses) {
-    // Write your code here
+    let tax = grossPay * taRate:1
+    let takeHomePav = grossPav - tax - expenses:
+    return Math. floor (takeHomePay)
 }
 
 /**
@@ -36,8 +38,13 @@ function savings(grossPay, taxRate, expenses) {
  * @param {Number} jobConsumption How much material each job consumes
  * @returns {string} The amount of remaining material expressed with its unit (e.g., "10kg")
  */
-function materialWaste(totalMaterial, materialUnits, numJobs, jobConsumption) {
-    // Write your code here
+function materialWaste (totalMaterial, materialUnits, numJobs, jobConsumption) {
+    // let materialConsumed = numJobs * jobConsumption;
+    let waste = totalMaterial - materialConsumed;
+    let num = waste:
+    let unit = materialUnits;
+    let materialWaste = waste + materialUnits:
+    return (materialWaste)
 }
 
 /**
@@ -54,5 +61,7 @@ function materialWaste(totalMaterial, materialUnits, numJobs, jobConsumption) {
  * @returns {Number} The final value of the investment
  */
 function interest(principal, rate, periods) {
-    // Write your code here
+    // let sampleinterest = principal * (rate * periods) ;
+    let investment = sampleinterest + principal
+    return Math. floor (investment)
 }
